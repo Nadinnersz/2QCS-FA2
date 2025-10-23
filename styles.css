@@ -1,0 +1,135 @@
+/*the color of unvisited links*/
+a:link {
+    background-color: rgb(101, 180, 81);
+    border: solid rgb(87, 167, 83) 1px;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+/*changes the color permanently when it is a visited link*/
+a:visited {
+    background-color: rgb(87, 167, 83);
+    color: rgb(207, 248, 207);
+    text-decoration: wavy underline;
+    border: solid rgb(87, 167, 83) 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*changes the color when you hover the link*/
+a:hover {
+    background-color: rgb(152, 228, 133);
+    color: white;
+    border: solid rgb(87, 167, 83) 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*changes the color in a split second when you clicked the link*/
+a:active {
+    background-color: rgb(101, 180, 81);
+    color: rgb(11, 255, 32);
+    border: solid rgb(87, 167, 83) 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*changes the color when you are in the link, making it easier to navigate where you are in the page*/
+a:focus {
+  background-color: black;
+}
+
+body {
+  background-color: rgb(204, 241, 204);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+main {
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgb(161, 217, 161);
+}
+
+h2 {
+  background-color: rgb(70, 154, 70);
+  padding: 10px;
+  color: rgb(232, 235, 233);
+  text-align: center;
+
+}
+
+header {
+    text-align: center;
+    background-color: rgb(154, 218, 154);
+    overflow: auto;
+}
+
+nav {
+    background-color: rgb(70, 154, 70);
+    overflow: auto;
+}
+
+li {
+    list-style-type: none;
+    float: left;
+    width: 100px;
+    text-align: center;
+    position: relative;
+    left: 520px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+a {
+  padding: 10px;
+}
+
+/*selects the first paragraph of the #paris selection*/
+#paris p:first-of-type{
+  background-color: rgb(105, 184, 105); 
+  color: rgb(211, 243, 194);
+}
+
+/*selects the last paragraph of the #kyoto selection*/
+#kyoto p:last-of-type{
+  background-color: rgb(211, 243, 194);
+}
+
+/*selects the even numbered paragraphs of the #kyoto selection*/
+#batanes p:nth-of-type(even) {
+  border: 2px dotted rgb(3, 91, 0);
+}
+
+footer {
+  background-color: rgb(70, 154, 70);
+  border: none;
+  color: rgb(238, 255, 241);
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s; /*changes the color smoothly*/
+}
+
+/*changes the color when you hover on the footer*/
+footer:hover {
+  background-color: rgb(80, 114, 61);
+  color: black;
+}
+
+img {
+  margin-left: 30%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  text-align: center;
+}
